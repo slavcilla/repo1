@@ -1,0 +1,174 @@
+body {
+	margin: 14px auto 0;
+	background:url(../images/white.png);
+	font-family:Verdana, Arial, sans-serif;
+}
+
+#wrapper{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background:transparent;
+}
+
+#header {text-align:center}
+
+#content {
+	width:96%;
+	text-align:justify;
+	font-size:14px;
+	padding: 6px 22px 30px;
+	line-height: 21px;
+	margin:8px auto 2px;
+}
+
+#content  h1{
+	text-align: center;
+	font-size:18px;
+	padding:13px 0;
+	color: #fafafa;
+	background:#af591b;
+	font-weight:normal;
+	text-shadow:0 0 2px #888;
+}
+
+#content h3 {
+	background-color:#0099ff;
+	color:#FFF;
+	width:288px;
+	padding:5px 8px 5px;
+	font-size:14px;
+	font-weight:normal;
+	margin:32px auto 14px;
+	text-align:center;
+	box-shadow: 0 0 5px #DDD;
+	border:2px ridge #fff;
+	border-radius:5px;
+	text-shadow: 0px 1px 2px #888;
+}
+
+.red { text-align:center; color:#af591b; text-shadow:0 0 1px #999; font-size:16px}
+
+ul.ok {list-style-image:url(../images/ok.png); margin:44px 0 2px 22%;}
+ul.ok li {margin-bottom:7px; }
+
+  
+.pict {
+	float:right;
+	border:2px ridge #fff;
+	margin:5px 0 0 18px;
+	border-radius:8px;
+	opacity:0.9;
+}
+
+.pic {
+	float: left;
+	border: 2px ridge #fff;
+	margin:5px 16px 0 0;
+	border-radius:8px;
+	opacity:0.9;
+}
+
+.pi {
+	border:2px ridge #fff;
+	border-radius:8px;
+	opacity:0.9;
+}
+
+.ris {
+	float:right;
+	margin:4px 0 0 16px;
+	opacity:0.9;
+}
+
+.ga3 {
+	text-align: center;
+	margin:22px 0 32px;
+}
+
+.ga3 img{ 
+	border:1px outset #CCC;
+	width:288px;
+	margin:0 24px 4px;
+	opacity: 0.85;
+}
+
+.ga3 img:hover {opacity: 1.0;}
+
+
+.mz {clear:both}
+
+      
+.vv {text-align:right; font-style:italic}
+.vv a{color:#af591b; text-decoration:none}  
+.vv a:hover {color:red}   
+
+
+
+#footer {
+	background:#af591b;
+	width:100%;
+	position:  absolute;
+	bottom: auto; right: 0; 
+	z-index:22; margin-top:0;
+	font-size:13px;
+	height:66px;
+}
+
+
+.copy {
+	font-size: 11px;
+	color:#fff;
+	margin: 13px 0 0 16px;
+	float: left;
+}
+
+.top{
+	margin-left: 30%;
+	margin-top: 13px;
+	float: left;
+	opacity:0.9;
+}
+
+.me {
+	font-size: 11px;
+	font-family: Georgia, Times, serif;
+	margin: 13px 26px 0 0;
+	float: right;
+}
+
+.me a {
+	color: #fff;
+	text-decoration:none;
+	letter-spacing:1px;
+}
+
+#lightbox {
+	background-color: #eee;
+	padding: 10px;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+
+#lightboxCaption {
+	color: #333;
+	background-color: #eee;
+	font-size: 90%;
+	text-align: center;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+#lightboxIndicator {
+	border: 1px solid white;
+}
+#lightboxOverallView,
+#overlay {
+	background-color: #000;
+	opacity: 0.5;
+}
+* html #lightboxOverallView,
+* html #overlay {
+	background-color: #000;
+	filter: Alpha(opacity=50);
+}
